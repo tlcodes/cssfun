@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CSSFun</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="#welcome"><span class="css">CSS</span><span class="fun">Fun</span></a></div> 
+            <div class="main-nav">  
+                    <input type="checkbox" id="more" /><label for="more" class="menu-icon">
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                </label>
+                <ul class="nav-links" id="show-links">                
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>                
+                </ul>                
+            </div>    
+            <!-- <div id="menu">
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#form">Join!</a></li>
+                    <li><a href="#counters">Counters</a></li>   
+                    <li><a href="#news">News</a></li> 
+                </ul>
+            </div> -->
+        </nav>
+    </header>
+    <section id="welcome">
+        <div class="slides-wrapper">
+            <div class="welcome-slide1">
+                <p class="big">Hey there, <br>
+                    welcome
+                </p>
+            </div>
+            <div class="welcome-slide2">
+                <p class="big">Here's a slideshow</p>
+            </div>
+            <div class="welcome-slide3">
+                <p class="big">with CSS</p>
+            </div>            
+        </div>
+        <a href="#about">
+            <figure class="down">
+                &xdtri;
+            </figure>
+        </a>
+    </section>
+    <section id="about">
+        <h2>About...</h2>
+        <p>
+            A HTML/CSS only web page.
+        </p>
+        <p>
+            Relying heavily on flexbox for layout, and transitions/animations for effects. No CSS frameworks, no JavaScript/jQuery or any other library.
+        </p>
+        <p>
+            This page has no other purpose than having fun with CSS ;)
+        </p>
+        <p>
+            Reduce the width to 600px to see the mobile menu icon.
+        </p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-tiles">
+            <div class="feature-tile">
+                <div class="feature-front">
+                    <h4>&oast; Feature tiles</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, cum illum vero delectus accusamus similique dolorem minima magni aspernatur qui.</p>
+                </div>
+                <div class="feature-overlay">
+                    &oast; Learn more
+                </div>
+            </div>
+            <div class="feature-tile">
+                <div class="feature-front">
+                    <h4>&smashp; With overlay!</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus iusto ratione ducimus placeat! Laborum, culpa.</p>
+                </div>
+                <div class="feature-overlay">&smashp; Contact us!</div>
+            </div>
+            <div class="feature-tile">
+                <div class="feature-front"><h4>&boxbox; Lorem, ipsum dolor.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, qui!</p></div>
+                <div class="feature-overlay"><p>&boxbox; Get a quote!</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote">        
+        <q>Parallax is cool</q>
+        <br><cite>- everyone</cite>
+    </section>
+
+    <section id="form">
+        <div id="popup">
+            <div class="popup-content">
+                <p class="big">it's a trap!</p>
+                <p>I see you take risks! I like you :)</p>
+                <a href="#form" class="close">x</a>
+            </div>
+        </div>
+        <h2>Press that join button</h2>
+        <p>if you dare...</p>
+        <div>
+            <input type="text" class="field" placeholder="Enter your email"><a href ="#popup"><button type="submit">Join!</button></a>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>from our blog...</h2>
+        <div class="blog-posts">
+            <div class="post">
+                <div class="post-title">
+                    <h3>Hiking the GR34</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime enim pariatur!</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-title">
+                    <h3>On a sunset</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, vero.</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-title">
+                    <h3>Mountains are cool too</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, repellendus laudantium?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Let's Connect!</h2>
+        <ul>
+            <li><a target="_blank" href="https://github.com/tlcodes">GitHub</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/tomleroyweb/">LinkedIn</a></li>
+        </ul>
+    </section>
+    <footer>
+        Made with <span class="heart">&hearts;</span> and CSS by Thomas Leroy
+    </footer>
+</body>
+</html>
